@@ -1,6 +1,6 @@
 function logger(file) {
   var logfile = file;
-  var eol = '\r';
+  var eol = '\n';
   var separator = ' - ';
   var levels = {DEBUG: 'DEBUG', INFO: 'INFO', WARN: 'WARN',
                 ERROR: 'ERROR', CRITICAL: 'CRITICAL'};
