@@ -1,13 +1,13 @@
 # CSS check
 
+## Use case
+
+CSS on your site is degrading unpredictably. You know what changes when it goes wrong, but you need to find out when that happens to help you track down the problem. You want to check things frequently (say every few minutes), and log every check. When things do fail, you want the option of being able to take a dump of part of the code on the page for future inspection.
+
 ## Prerequisites
 
 + phantomjs
 + a server to run it on in a CRON job
-
-## Use case
-
-CSS on your site is degrading unpredictably. You know what changes when it goes wrong, but you need to find out when that happens to help you track down the problem. You want to check things frequently (say every few minutes), and log every check. When things do fail, you want the option of being able to take a dump of part of the code on the page for future inspection.
 
 ## Composition
 
