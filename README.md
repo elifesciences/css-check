@@ -28,8 +28,8 @@ Ensure logger.js and css_check.js are in the same directory. css_check.js takes 
 
 1. the URL to test
 1. the path to which to log
-1. the selector matching the element you wish to examine
-1. the css property of this element you wish to example
+1. the selector matching the element under test
+1. the css property of this element you wish to examine
 1. the expected value of this css property
 1. this parameter specifies a selector that, if the expected css property value is not found, identifies an element that will be dumped to a file for future inspection. It is dumped to the same directory as the log file, and has the filename pattern ```css_fail__sample_[timestamp-to-match-log-entry].html```
 1. if 'true', the preceeding parameter's innerHTML will be dumped; any other value, or no value, will cause its outerHTML to be dumped.
