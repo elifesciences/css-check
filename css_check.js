@@ -43,7 +43,7 @@
   }
 
   page.open(url, function(status) {
-    var timestamp = Date.now();
+    var timestamp = Date.now() / 1000;
     var logMsg;
     var logLevel;
     var logSource = 'css_check';
